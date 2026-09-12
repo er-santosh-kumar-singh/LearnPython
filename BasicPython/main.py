@@ -1,6 +1,7 @@
 from BasicPython.calculator import add,sub,mul,div
 from BasicPython.loop import printUsingFor, printUsingForSum, printNumberUsingWhileLoop, printNumberUsingBreak_Continue
 from BasicPython.ifelseprogram import printGrade
+from BasicPython.ifelse_grade_program import printBrand
 
 '''def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -33,9 +34,13 @@ printNumberUsingWhileLoop(10)
 printNumberUsingBreak_Continue(10)'''
 
 # if else program...
-print('If else program....')
+'''print('If else program....')
 score = int(input('Enter your score:'))
 if score > 100 or score < 0:
     print('Please enter valid score')
 else:
-    printGrade(score)
+    printGrade(score)'''
+
+print('If else program print brand....')
+#score = int(input('Enter your score:'))
+printBrand()
