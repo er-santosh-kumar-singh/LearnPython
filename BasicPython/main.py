@@ -2,6 +2,9 @@ from BasicPython.calculator import add,sub,mul,div
 from BasicPython.loop import printUsingFor, printUsingForSum, printNumberUsingWhileLoop, printNumberUsingBreak_Continue
 from BasicPython.ifelseprogram import printGrade
 from BasicPython.ifelse_grade_program import printBrand
+from BasicPython.list_comprehension import printSquare
+from BasicPython.collection_program import (print_counter, print_namedtuple
+, print_defaultdict, print_dict, print_deque, print_ChainMap)
 
 '''def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -25,7 +28,7 @@ div = div(10,20)
 print(div)
 '''
 #===============================
-print('Loop program....')
+'''print('Loop program....')'''
 
 '''printUsingFor(10)
 printUsingForSum(10)
@@ -41,6 +44,24 @@ if score > 100 or score < 0:
 else:
     printGrade(score)'''
 
-print('If else program print brand....')
+'''print('If else program print brand....')
 #score = int(input('Enter your score:'))
-printBrand()
+printBrand()'''
+
+'''print('List comprehension:')
+printSquare()'''
+
+#Collection program...
+print('Collection program....')
+print('Print print_counter:')
+print_counter()
+print('Print print_namedtuple:')
+print_namedtuple()
+print('Print print_defaultdict:')
+print_defaultdict()
+print('Print print_dict:')
+print_dict()
+print('Print print_deque:')
+print_deque()
+print('Print print_ChainMap:')
+print_ChainMap()
